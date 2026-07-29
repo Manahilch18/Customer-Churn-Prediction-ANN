@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/proccessed/*
+!data/proccessed/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+#models
+
+.devcontainer
